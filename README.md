@@ -6,6 +6,8 @@ You must do this challenge by yourself. You may discuss the problem or solutions
 
 You should first **fork** this repository to your own *private* repo. You are expected to work on your repo by making *git-commit* as you work. In the end, you should submit your entire set of all commits as a single **pull request**. In this way, the entire *history* of your programming efforts will be reflected in the commits you made, while the PR will merge all of these to provide a consolidated changeset that we can review. Your commits should only add the requested files in the challenge. You should not include any binary files in any of your git-commits.
 
+Your code should be consistent with the [RTEMS coding standards](https://docs.rtems.org/branches/master/eng/coding.html).
+
 The Challenge
 -------------
 
@@ -14,8 +16,6 @@ The header file *list.h* defines an interface for a linked list data structure t
 Do not use arrays. Do not declare arrays. There is no need to use [] anywhere. Do not use C++ including C++ Standard Template Library, Boost, cout or new. Your source code must use UNIX style EOL characters \n not DOS style \n\r. You can write code on Windows, but you must convert it to Unix text files before submitting. The dos2unix command may be useful for this.
 
 Some helpful C functions are strlen, strncmp, printf, strncpy, strdup, malloc, free.  (man these if necessary. Pay attention to return values!)
-
-Your code should be consistent with the RTEMS coding conventions.
 
 Your test file should try various combinations of your `create_list`, `add_to_list`, `remove_from_list`, `flush_list`, `print_list`, and `free_list` functions. You should check return values on any function that can possibly fail, and you should call functions with invalid inputs to see if they are handled gracefully.
 
