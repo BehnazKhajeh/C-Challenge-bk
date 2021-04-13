@@ -11,7 +11,7 @@ Your code should be consistent with the [RTEMS coding standards](https://docs.rt
 The Challenge
 -------------
 
-The header file *list.h* defines an interface for a linked list data structure that stores C strings. You need to implement the functions and structures declared in *list.h* within a separate implementation file called *list.c* which you will create. You also need to add a *Makefile* and a test file called *list_test.c* that implements testing of your list implementation.
+The header file *list.h* defines an interface for a linked list data structure that stores C strings. You need to implement the functions and structures declared in *list.h* within a separate implementation file called *list.c* which you will create. You also need to add a *Makefile* and a test file called *list_test.c* that implements testing of your list implementation. Finally, you need to convert the existing comments to Doxygen documentation, and generate the doxygen output for the linked list.
 
 Do not use arrays. Do not declare arrays. There is no need to use [] anywhere. Do not use C++ including C++ Standard Template Library, Boost, cout or new. Your source code must use UNIX style EOL characters \n not DOS style \n\r. You can write code on Windows, but you must convert it to Unix text files before submitting. The dos2unix command may be useful for this.
 
