@@ -1,4 +1,4 @@
-# RTEMS-C-Challenge
+# C-Challenge
 
 This is a programming challenge meant to assess and improve basic to intermediate C programming skills. Read all instructions carefully.
 
@@ -6,7 +6,7 @@ You must do this challenge by yourself. You may discuss the problem or solutions
 
 You should first **fork** this repository to your own *private* repo. You are expected to work on your repo by making *git-commit* as you work. In the end, you should submit your entire set of all commits as a single **pull request**. In this way, the entire *history* of your programming efforts will be reflected in the commits you made, while the PR will merge all of these to provide a consolidated changeset that we can review. Your commits should only add the requested files in the challenge. You should not include any binary files in any of your git-commits.
 
-Your code should be consistent with the [RTEMS coding standards](https://docs.rtems.org/branches/master/eng/coding.html).
+Your code should be consistent with the [LLVM coding standards](https://llvm.org/docs/CodingStandards.html). *Hint: use `clang-format -llvm` to automate compliance.*
 
 The Challenge
 -------------
@@ -21,7 +21,7 @@ Your test file should try various combinations of your `create_list`, `add_to_li
 
 Write a Makefile that compiles *list.c* and *list_test.c* to create a binary executable named *list_test*.  Your program should compile without any warnings or errors when using all standard GCC warnings in -Wall. Do not include any of the binary files (\*.o, \*.exe, etc.).
 
-Document your code. If something doesn’t work, you may get partial credit if your comments show that you were on the right track. Put a comment block at the top of every file using the RTEMS file header template. Document any places where you received outside help (other people, web sites, etc.).
+Document your code. If something doesn’t work, you may get partial credit if your comments show that you were on the right track. Put a comment block at the top of every file using the file header template similar to list.h. Document any places where you received outside help (other people, web sites, etc.).
 
 Good luck. If you have any questions about this challenge, feel free to ask me. Submit your solution by opening a PR with all your code changes, comments as requested, and anything else you would like to say.
 

@@ -3,11 +3,11 @@
 /**
  * @file
  *
- * @ingroup RTEMSCChallenge
+ * @ingroup CChallenge
  *
- * @brief C Programming Challenging for RTEMS 
+ * @brief C Programming Challenge
  *
- * Definition of List Interface for RTEMS C Challenge.
+ * Definition of List Interface for C Challenge.
  */
 
 /*
