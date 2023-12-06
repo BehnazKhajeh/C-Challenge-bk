@@ -68,7 +68,7 @@ void print_list(list *ll);
  * valid, empty list when this function returns. Any memory
  * allocated to store items in the list should be freed.
  * Returns the number of items flushed from the list.
- * Note: after flush_list() the list can still be used, 
+ * Note: after flush_list() the list can still be used,
  * just as if it has just been created.*/
 int flush_list(list* ll);
 
