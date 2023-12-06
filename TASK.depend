@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1701868663 source:c:\users\user\desktop\final task\task\list.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1701868797 source:c:\users\user\desktop\final task\task\list_test.c
+	<stdio.h>
+	<stdlib.h>
+	"list.h"
+
+1701868758 c:\users\user\desktop\final task\task\list.h
+
